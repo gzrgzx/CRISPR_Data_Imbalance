@@ -13,3 +13,13 @@ Following Python packages should be installed:
 - TensorFlow
 * Keras
 
+Data Description:
+
+* dataset1->Doench et al.(Protein knockout detection)
+* dataset2->Haeussler et al.(PCR, Digenome-Seq and HTGTS)
+* dataset3->Cameron et al.(SITE-Seq)
+* dataset4->Tasi et al.(GUIDE-seq)
+* dataset5->Kleinstiver et al(GUIDE-seq)
+* dataset6->Listgarten et al.(GUIDE-seq)
+* dataset7->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)
+* dataset8->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)

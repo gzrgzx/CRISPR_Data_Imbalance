@@ -33,10 +33,10 @@ Data Description:
         * experiment_2.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, and CNN_std.
 
 
-saved_model Description:
-* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+new_crispr_ip.h5->CrisprDNT trained in dataset5.
-* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+NCEandRCE_new_crispr_ip.h5->CrisprDNT with NCE&RCE loss function trained in dataset5.
-* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+NCEandMAE_new_crispr_ip.h5->CrisprDNT with NCE&MAE loss function trained in dataset5.
-* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+sce_new_crispr_ip.h5->CrisprDNT with SCE loss function trained in dataset5.
-* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+gce_new_crispr_ip.h5->CrisprDNT with GCE loss function trained in dataset5.
-* encodedmismatchtype14x23Listgarten_22gRNAwithoutTsai.pkl+new_crispr_ip.h5->CrisprDNT trained in dataset6.
+saved_model Description(The saved model is exemplified by CrisprDNT, where the model is trained on the first type of dataset and tested on the second type of dataset respectively):
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_GHM.h5->Processing the CrisprDNT model using GHM techniques.
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_focal_loss.h5->Processing the CrisprDNT model using focal_loss techniques
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_undersampling.h5->Processing the CrisprDNT model using undersampling techniques
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_oversampling.h5->Processing the CrisprDNT model using oversampling techniques
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_ADASYN.h5->Processing the CrisprDNT model using ADASYN techniques
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_SMOTE.h5->Processing the CrisprDNT model using SMOTE techniques

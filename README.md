@@ -24,7 +24,7 @@ Data Description:
 * dataset7->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)
 * dataset8->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)
 
-**Code Description
+*Code Description
     * data_process(coding scheme)
         * create_coding_scheme.py->Create CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
     * model

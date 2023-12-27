@@ -23,3 +23,11 @@ Data Description:
 * dataset6->Listgarten et al.(GUIDE-seq)
 * dataset7->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)
 * dataset8->Chuai et al.(GUIDE-Seq, Digenome-Seq,HTGTS,BLESS and IDLVs)
+
+Code Description
+    * data_process(coding scheme)
+        * create_coding_scheme.py->Create CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
+    * model
+        * model_network.py->CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std network and data imbalance code.
+    * train&test
+        * experiment.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, and CNN_std.

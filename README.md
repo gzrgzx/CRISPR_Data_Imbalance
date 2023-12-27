@@ -28,6 +28,15 @@ Data Description:
     * data_process(coding scheme)
         * create_coding_scheme.py->Create CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
     * model
-        * model_network.py->CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std network and data imbalance code.
+        * newnetwork.py->CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std network and data imbalance code.
     * train&test
-        * experiment.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, and CNN_std.
+        * experiment_2.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, and CNN_std.
+
+
+saved_model Description:
+* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+new_crispr_ip.h5->CrisprDNT trained in dataset5.
+* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+NCEandRCE_new_crispr_ip.h5->CrisprDNT with NCE&RCE loss function trained in dataset5.
+* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+NCEandMAE_new_crispr_ip.h5->CrisprDNT with NCE&MAE loss function trained in dataset5.
+* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+sce_new_crispr_ip.h5->CrisprDNT with SCE loss function trained in dataset5.
+* encodedmismatchtype14x23Kleinstiver_5gRNAwithoutTsai.pkl+gce_new_crispr_ip.h5->CrisprDNT with GCE loss function trained in dataset5.
+* encodedmismatchtype14x23Listgarten_22gRNAwithoutTsai.pkl+new_crispr_ip.h5->CrisprDNT trained in dataset6.

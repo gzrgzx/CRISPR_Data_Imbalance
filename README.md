@@ -13,6 +13,14 @@ Following Python packages should be installed:
 - TensorFlow
 * Keras
 
+
+Usage
+
+For a new dataset：
+* You can process the dataset by calling code/data_process/create_coding_scheme.py to get the coding format needed by CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
+* The network structure of the four models CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std as well as the data imbalance method are available from code/train&test/experiment.py and code/model/model_network.py.
+
+
 Data Description:
 
 * dataset1->Doench et al.(Protein knockout detection)
@@ -35,8 +43,8 @@ Data Description:
 
 saved_model Description(The saved model is exemplified by CrisprDNT, where the model is trained on the first type of dataset and tested on the second type of dataset respectively):
 * encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_GHM.h5->Processing the CrisprDNT model using GHM techniques.
-* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_focal_loss.h5->Processing the CrisprDNT model using focal_loss techniques
-* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_undersampling.h5->Processing the CrisprDNT model using undersampling techniques
-* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_oversampling.h5->Processing the CrisprDNT model using oversampling techniques
-* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_ADASYN.h5->Processing the CrisprDNT model using ADASYN techniques
-* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_SMOTE.h5->Processing the CrisprDNT model using SMOTE techniques
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_focal_loss.h5->Processing the CrisprDNT model using focal_loss techniques.
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_undersampling.h5->Processing the CrisprDNT model using undersampling techniques.
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_oversampling.h5->Processing the CrisprDNT model using oversampling techniques.
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_ADASYN.h5->Processing the CrisprDNT model using ADASYN techniques.
+* encodedmismatchtype14x231&2&3&4_Listgarten_22gRNAwithoutTsai.pkl+CrisprDNT_SMOTE.h5->Processing the CrisprDNT model using SMOTE techniques.

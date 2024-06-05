@@ -19,8 +19,8 @@ Following Python packages should be installed:
 Usage
 
 For a new dataset：
-* You can process the dataset by calling code/data_process/create_coding_scheme.py to get the coding format needed by CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
-* The network structure of the four models CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std as well as the data imbalance method are available from code/train&test/experiment.py and code/model/model_network.py.
+* You can process the dataset by calling code/data_process/create_coding_scheme.py to get the coding format needed by CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR encoding.
+* The network structure of the six models CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std CnnCrispr and DL-CRISPR as well as the data imbalance method are available from code/train&test/experiment.py and code/model/model_network.py.
 
 
 Data Description:
@@ -36,11 +36,11 @@ Data Description:
 
 * Code Description
     * data_process(coding scheme)
-        * create_coding_scheme.py->Create CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std encoding.
+        * create_coding_scheme.py->Create CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR encoding.
     * model
-        * newnetwork.py->CrisprDNT, CRISPR_IP, CRISPR_Net and CNN_std network and data imbalance code.
+        * newnetwork.py->CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR network and data imbalance code.
     * train&test
-        * experiment_2.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, and CNN_std.
+        * experiment_2.py->code to reproduce the experiments with CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR.
 
 
 saved_model Description(The saved model is exemplified by CrisprDNT, where the model is trained on the first type of dataset and tested on the second type of dataset respectively):

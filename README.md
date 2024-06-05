@@ -20,7 +20,7 @@ Usage
 
 For a new dataset：
 * You can process the dataset by calling code/data_process/create_coding_scheme.py to get the coding format needed by CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR encoding.
-* The network structure of the six models CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std CnnCrispr and DL-CRISPR as well as the data imbalance method are available from code/train&test/experiment.py and code/model/model_network.py.
+* The network structure of the six models CrisprDNT, CRISPR_IP, CRISPR_Net, CNN_std, CnnCrispr and DL-CRISPR as well as the data imbalance method are available from code/train&test/experiment.py and code/model/model_network.py.
 
 
 Data Description:

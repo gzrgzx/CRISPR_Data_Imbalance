@@ -1,4 +1,4 @@
-# Comprehensive Analysis and Resolution of Data Imbalance in CRISPR Off-Target Prediction Tasks
+# A Systematic Method for Solving Data Imbalance in CRISPR Off-Target Prediction Tasks
 
 ![Figure 1](https://github.com/gzrgzx/Comprehensive-Analysis-and-Resolution-of-Data-Imbalance-in-CRISPR-Off-Target-Prediction-Tasks/assets/48210803/9bdc4ab2-1957-443a-81d1-410f130e826a)
 ![Figure 2](https://github.com/gzrgzx/CRISPR_Data_Imbalance/assets/48210803/eb1b27f8-fb97-43be-b2ae-205751e69d82)
